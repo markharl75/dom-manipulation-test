@@ -21,5 +21,5 @@ function mooText(){
     // alert(untrimmedString);
     var wordsArray = untrimmedString.split(".");
     let returnStr = wordsArray.join("MOO.");
-    alert(returnStr);
+    document.getElementById("input-text").value = returnStr;
 }
